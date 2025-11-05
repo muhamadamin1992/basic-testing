@@ -3,7 +3,7 @@ import { simpleCalculator, Action } from './index';
 
 describe('simpleCalculator tests', () => {
   test('should add two numbers', () => {
-    expect(simpleCalculator({ a: 1, b: 2, action: Action.Add })).toBe(2);
+    expect(simpleCalculator({ a: 1, b: 2, action: Action.Add })).toBe(3);
   });
 
   test('should subtract two numbers', () => {
